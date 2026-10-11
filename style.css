@@ -279,6 +279,15 @@ h1 {
   text-align: center;
 }
 
+.page-footer p {
+  margin-bottom: 0;
+}
+
+.page-credit {
+  margin-top: 0.35rem;
+  font-size: 0.8rem;
+}
+
 [hidden] {
   display: none !important;
 }

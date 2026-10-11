@@ -4,7 +4,7 @@ A multiple-choice quiz about the One Piece anime and manga. Answer the questions
 
 The game loads its questions from `events.json`. Each question has a prompt, answer choices, and a correct answer.
 
-The published site is at https://andryb06.github.io/stargazers-log/.
+The published site is at https://andryb06.github.io/one-piece-trivia/.
 
 ## GitHub Pages deployment
 
