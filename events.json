@@ -1,0 +1,23 @@
+[
+  {
+    "name": "freeCodeCamp",
+    "full_name": "freeCodeCamp/freeCodeCamp",
+    "description": "Learn to code for free with interactive lessons and projects.",
+    "html_url": "https://github.com/freeCodeCamp/freeCodeCamp",
+    "starred_at": "2025-02-14"
+  },
+  {
+    "name": "The Odin Project",
+    "full_name": "TheOdinProject/curriculum",
+    "description": "An open-source curriculum for learning web development.",
+    "html_url": "https://github.com/TheOdinProject/curriculum",
+    "starred_at": "2025-01-28"
+  },
+  {
+    "name": "Deno",
+    "full_name": "denoland/deno",
+    "description": "A modern runtime for JavaScript and TypeScript.",
+    "html_url": "https://github.com/denoland/deno",
+    "starred_at": "2024-12-03"
+  }
+]
