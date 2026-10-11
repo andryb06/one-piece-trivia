@@ -3,22 +3,33 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Stargazers log</title>
+    <title>One Piece Trivia</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
   </head>
   <body>
     <main class="page">
       <header class="page-header">
-        <p class="eyebrow">GitHub collection</p>
-        <h1>Stargazers log</h1>
-        <p>A log of the repositories I've starred.</p>
+        <p class="eyebrow"><span aria-hidden="true">⚓</span> Grand Line trivia</p>
+        <h1>One Piece Trivia</h1>
+        <p>Test your knowledge of the Straw Hats and their adventures.</p>
       </header>
-      <section aria-labelledby="repositories-heading">
-        <h2 id="repositories-heading">Starred repositories</h2>
-        <p id="list-status" class="list-status" role="status">Loading repositories…</p>
-        <ul id="repository-list" class="repository-list" aria-describedby="list-status"></ul>
+      <section class="game-card" aria-labelledby="question-heading">
+        <div class="game-meta">
+          <p id="question-count" class="game-count">Loading game…</p>
+          <p id="score" class="game-score">Score: 0</p>
+        </div>
+        <progress id="game-progress" max="1" value="0" aria-label="Game progress"></progress>
+        <h2 id="question-heading" class="question-heading">Loading questions…</h2>
+        <p id="question-prompt" class="question-prompt"></p>
+        <div id="answer-options" class="answer-options" role="group" aria-label="Choose an answer"></div>
+        <p id="answer-feedback" class="answer-feedback" role="status" aria-live="polite"></p>
+        <div class="game-actions">
+          <button id="next-button" class="button button-primary" type="button" hidden>Next question</button>
+          <button id="restart-button" class="button button-secondary" type="button" hidden>Play again</button>
+        </div>
       </section>
+      <p class="page-footer">Set sail, trust your instincts, and see how much you remember.</p>
     </main>
   </body>
 </html>

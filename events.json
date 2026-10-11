@@ -1,23 +1,42 @@
 [
   {
-    "name": "freeCodeCamp",
-    "full_name": "freeCodeCamp/freeCodeCamp",
-    "description": "Learn to code for free with interactive lessons and projects.",
-    "html_url": "https://github.com/freeCodeCamp/freeCodeCamp",
-    "starred_at": "2025-02-14"
+    "question": "What is the name of the pirate crew led by Monkey D. Luffy?",
+    "answers": ["Red Hair Pirates", "Straw Hat Pirates", "Blackbeard Pirates", "Heart Pirates"],
+    "correctAnswer": "Straw Hat Pirates"
   },
   {
-    "name": "The Odin Project",
-    "full_name": "TheOdinProject/curriculum",
-    "description": "An open-source curriculum for learning web development.",
-    "html_url": "https://github.com/TheOdinProject/curriculum",
-    "starred_at": "2025-01-28"
+    "question": "What is the name of the ocean where Luffy begins his journey?",
+    "answers": ["East Blue", "West Blue", "North Blue", "South Blue"],
+    "correctAnswer": "East Blue"
   },
   {
-    "name": "Deno",
-    "full_name": "denoland/deno",
-    "description": "A modern runtime for JavaScript and TypeScript.",
-    "html_url": "https://github.com/denoland/deno",
-    "starred_at": "2024-12-03"
+    "question": "What is the name of the swordsman who joins Luffy's crew early in the story?",
+    "answers": ["Trafalgar Law", "Dracule Mihawk", "Roronoa Zoro", "Killer"],
+    "correctAnswer": "Roronoa Zoro"
+  },
+  {
+    "question": "Which Straw Hat is a skilled navigator?",
+    "answers": ["Nami", "Nico Robin", "Vivi", "Carrot"],
+    "correctAnswer": "Nami"
+  },
+  {
+    "question": "What is the name of the ship the Straw Hats sail after the Going Merry?",
+    "answers": ["Red Force", "Thousand Sunny", "Polar Tang", "Moby Dick"],
+    "correctAnswer": "Thousand Sunny"
+  },
+  {
+    "question": "Which organization is responsible for enforcing the World Government's laws at sea?",
+    "answers": ["The Marines", "Baroque Works", "The Revolutionary Army", "The Fire Tank Pirates"],
+    "correctAnswer": "The Marines"
+  },
+  {
+    "question": "What is Sanji's role aboard the Straw Hats' ship?",
+    "answers": ["Doctor", "Shipwright", "Cook", "Musician"],
+    "correctAnswer": "Cook"
+  },
+  {
+    "question": "What is the name of the treasure Gol D. Roger left behind?",
+    "answers": ["All Blue", "The One Piece", "Poseidon", "Pluton"],
+    "correctAnswer": "The One Piece"
   }
 ]
