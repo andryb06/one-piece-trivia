@@ -82,6 +82,26 @@ h1 {
   line-height: 1.6;
 }
 
+.music-player {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.music-label {
+  margin-bottom: 0;
+  color: var(--deep-ocean);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.music-player audio {
+  width: min(100%, 360px);
+  height: 2.5rem;
+}
+
 .game-card {
   padding: clamp(1.25rem, 5vw, 2rem);
   border: 1px solid rgb(255 255 255 / 90%);
@@ -295,6 +315,15 @@ h1 {
 @media (max-width: 480px) {
   .page {
     padding-top: 2.5rem;
+  }
+
+  .music-player {
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .music-player audio {
+    max-width: 100%;
   }
 
   .game-meta {
