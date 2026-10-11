@@ -1,0 +1,119 @@
+:root {
+  color-scheme: light;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  color: #1f2328;
+  background: #f6f8fa;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+.page {
+  width: min(100% - 2rem, 720px);
+  margin: 0 auto;
+  padding: 4rem 0;
+}
+
+.page-header {
+  margin-bottom: 2.5rem;
+}
+
+.eyebrow {
+  margin: 0 0 0.5rem;
+  color: #656d76;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  margin-bottom: 0.5rem;
+  font-size: clamp(2rem, 7vw, 3rem);
+  letter-spacing: -0.04em;
+}
+
+.page-header > p:last-child {
+  margin-bottom: 0;
+  color: #656d76;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.list-status {
+  color: #656d76;
+}
+
+.repository-list {
+  display: grid;
+  gap: 0.75rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.repository-card {
+  padding: 1.25rem;
+  border: 1px solid #d1d9e0;
+  border-radius: 0.75rem;
+  background: #fff;
+  box-shadow: 0 1px 2px rgb(31 35 40 / 5%);
+}
+
+.repository-card a {
+  color: #0969da;
+  font-size: 1.05rem;
+  font-weight: 650;
+  text-decoration: none;
+}
+
+.repository-card a:hover {
+  text-decoration: underline;
+}
+
+.repository-name {
+  margin: 0 0 0.5rem;
+}
+
+.repository-description {
+  margin: 0;
+  color: #656d76;
+  line-height: 1.5;
+}
+
+.repository-meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1rem;
+  color: #656d76;
+  font-size: 0.85rem;
+}
+
+@media (max-width: 480px) {
+  .page {
+    padding: 2.5rem 0;
+  }
+
+  .repository-meta {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+}
